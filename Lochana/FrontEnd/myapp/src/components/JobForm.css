@@ -1,0 +1,166 @@
+body {
+    background-size: cover;
+    height: 75vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: repeat;
+    
+}
+
+  
+  .container-SF{
+    padding-top: 40px;
+  }
+  
+   
+  .heading-SF {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+  
+  .forms-SF {
+    max-width: 550px;
+    width: 100%;
+    margin-top: 100px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(208, 64, 64, 0.1);
+    background-color: lightcyan;
+  }
+  
+  .label-SF {
+    
+    font-weight: bold;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+  }
+  
+  
+  .title-SF {
+    align-content: center;
+    width: 155%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 5vh;
+
+    
+  }
+
+  .type-SF {
+    align-content: center;
+    width: 255%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 8vh;
+
+    
+  }
+
+  .location-SF {
+    align-content: center;
+    width: 155%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 5vh;
+
+  }
+
+  .qualifications-SF {
+    align-content: center;
+    width: 145%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+
+  }
+
+  .salary-SF {
+    align-content: center;
+    width: 132%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 5vh;
+
+  }
+
+  .applicationDeadline-SF {
+    align-content: center;
+    width: 132%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 5vh;
+
+  }
+
+  .note-SF {
+    align-content: center;
+    width: 185%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-radius: 15px;
+    background: white;
+
+  }
+
+  .createdDate-SF {
+    align-content: center;
+    width: 160%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border-color: ghostwhite;
+    border-radius: 15px;
+    background: white;
+    height: 5vh;
+  }
+
+  
+  input[type=text]:focus {
+    background-color: white;
+    outline: none;
+  }
+
+  
+  .button-SF {
+    
+    width: 50%;
+    padding: 10px;
+    padding-right: -80px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  
+  }
+  
+  
+
+  

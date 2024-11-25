@@ -1,0 +1,66 @@
+.searchfilter-VC {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.searchfilter-VC input {
+    width: 40%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.searchfilter-VC select {
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+
+
+.container-VC {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+heading-VC {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+  }
+  
+
+.cardlist-VC {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-VC {
+    background-color: azure;
+    border: 1px solid ghostwhite;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 15px;
+    width: 1000px;
+}
+
+.viewDetailsbtn-VC {
+    
+    width: 50%;
+    padding: 10px;
+    padding-right: -80px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  
+  }
+
