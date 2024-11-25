@@ -1,0 +1,138 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background-image: url('https://images.pexels.com/photos/1450340/pexels-photo-1450340.jpeg?cs=srgb&dl=pexels-asadphoto-1450340.jpg&fm=jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Form container */
+.signup-container {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Title */
+.signup-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Form */
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Input fields */
+.signup-container input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+.signup-container input:focus {
+  outline: none;
+  border-color: #00c4ff;
+  box-shadow: 0 0 5px rgba(0, 196, 255, 0.5);
+}
+
+/* Button */
+.signup-container button {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #2e11ed;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-container button:hover {
+  background-color: #f502dd;
+}
+
+/* Success message */
+.message-success {
+  color: #28a745;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Error message */
+.message-error {
+  color: #ff4f4f;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Spinner */
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #00c4ff;
+  animation: spin 1s ease infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Link to Login */
+.signup-container h4 {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.signup-container h4 a {
+  color: #ff9eed;
+  text-decoration: none;
+}
+
+.signup-container h4 a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design */
+@media (max-width: 480px) {
+  .signup-container {
+    padding: 1.5rem;
+  }
+
+  .signup-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .signup-container input,
+  .signup-container button {
+    font-size: 0.9rem;
+  }
+}
