@@ -1,0 +1,62 @@
+
+.logo {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  width: 100px;
+  height: auto;
+}
+
+.container{
+  padding-top: 40px;
+}
+
+ 
+.heading {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+
+.forms {
+  max-width: 550px;
+  width: 100%;
+  margin-top: 100px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(208, 64, 64, 0.1);
+  background-color: #ee4b50;
+}
+
+label {
+  
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+}
+
+
+
+  input[type=text] {
+  align-content: center;
+  width: 210%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+

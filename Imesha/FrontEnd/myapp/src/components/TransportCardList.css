@@ -1,0 +1,51 @@
+.transport-card-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.transport-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.transport-card h4 {
+    margin-bottom: 10px;
+}
+
+.transport-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.details-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #139636;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #0056b3;
+}
