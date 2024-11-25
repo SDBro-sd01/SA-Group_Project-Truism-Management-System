@@ -1,0 +1,9 @@
+com\Project\Management\Entity\Hotel.class
+com\Project\Management\ManagementApplication.class
+com\Project\Management\Service\HotelService.class
+com\Project\Management\Service\HotelServiceIMPL.class
+com\Project\Management\DTO\HotelSaveDTO.class
+com\Project\Management\DTO\HotelUpdateDTO.class
+com\Project\Management\DTO\HotelDTO.class
+com\Project\Management\HotelController\HotelController.class
+com\Project\Management\HotelRepo\HotelRepo.class
